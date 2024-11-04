@@ -30,3 +30,9 @@ To view the difference between the last two commits, add the following:
 To quickly list all remote repositories, add this:
 
 `git config --global alias.remotes "remote -v"`
+
+#### Quick log view
+
+To log view in a structured manner
+
+`git config --global alias.lg "log --oneline --graph --decorate --all"`
